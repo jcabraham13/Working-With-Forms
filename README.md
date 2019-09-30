@@ -1,0 +1,3 @@
+Though this projects seems pretty simple, I found that it was a little tougher than I expected. I watched all the videos and did most of the exercizes on flexbox and grid, but I still had some trouble finding a way to smoothly center everything on the page. I did more research and found the answer and I'm pretty happy with the way things turned out.
+
+The original of this page was created by a user on Dribbble bu the name of Sarah Tanner. There are a few things that she programed into this page that included some javascript that I am not familiar with so I just left that out. This is pretty much just a base model of what she made.

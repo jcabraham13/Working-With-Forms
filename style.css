@@ -1,0 +1,74 @@
+/* Setting page background color */
+
+body {
+    background-color: #353538;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 15% 0;
+    overflow: hidden;
+    min-width: 400px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-gap: 70px;
+    width: 700px;
+}
+
+.box .text, .box .pass {
+    border-bottom: 2px solid #4bdba1 !important;
+    border: none;
+    background: none;
+}
+
+/* Changing the color of the bottom border of the inputs when hovered */
+
+.box .pass:hover {
+    border-bottom: 2px solid #a043ba !important;
+    border: none;
+    background: none;
+    transition: .5s;
+}
+
+.box .text:hover {
+    border-bottom: 2px solid #a043ba !important;
+    border: none;
+    background: none;
+    transition:.5s;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #999999;
+}
+
+.box text {
+    color: #999999;
+    padding-left: 20px;
+}
+
+/* changing the color of the submit button on hover */
+
+.button {
+    background:none;
+    background-color: #4dbda1;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background:none;
+    background-color: #a043ba;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s;
+}
